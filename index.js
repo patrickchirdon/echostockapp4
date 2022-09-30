@@ -110,7 +110,18 @@ function call_api(finishedAPI, ticker){
 	
 };
 
+const router = express.Router();
 
+router.get('/health', (req, res) => {
+  const data = {
+    uptime: process.uptime(),
+    message: 'Ok',
+    date: new Date()
+  }
+
+
+  res.status(200).send(data);
+});
 
 
 app.use(express.urlencoded({
