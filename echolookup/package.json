@@ -1,0 +1,22 @@
+{
+    "version": "1.0.0",
+    "name": "echolookup",
+    "app-name": "echolookup",
+    "package-name": "static_app",
+    "project-type": "static",
+    "icon": "./assets/icon/icon.png",
+    "dist-path": "./dist",
+    "permission": [
+        "android.permission.INTERNET"
+    ],
+    "description": "",
+    "author": "",
+    "license": "ISC",
+    "scripts": {
+        "build": "androidjs build"
+    },
+    "project-name": "echolookup",
+    "theme": {
+        "fullScreen": true
+    }
+}

@@ -1,0 +1,46 @@
+[
+  {
+    datetime: 1664476208000,
+    headline: 'It’s a sprint, not a marathon',
+    source: 'TechCrunch',
+    url: 'https://cloud.iexapis.com/v1/news/article/2eRXbs6cgdw5ymo0kkyn5bFEtHbhkgnH4BfQqx1LAK0y',
+    summary: 'Here’s a question for you: How seriously should we take Amazon’s home robotics play? Perhaps a better way of framing it is: When do we take Amazon’s home robotics play seriously? I realize these sound like pointed questions, and I should specify that they’re not really specific to Amazon. They’re more a result of having […] It’s a sprint, not a marathon by Brian Heater originally published on TechCrunch',
+    related: 'AMZN',
+    image: 'https://cloud.iexapis.com/v1/news/image/2eRXbs6cgdw5ymo0kkyn5bFEtHbhkgnH4BfQqx1LAK0y',
+    lang: 'en',
+    hasPaywall: false
+  },
+  {
+    datetime: 1664475415000,
+    headline: 'Amazon announces plans to open Granville distribution center',
+    source: 'WNYT',
+    url: 'https://cloud.iexapis.com/v1/news/article/3ei5AQQkdF6fKpBNWBEyCGwrVk1QKI1x1k4qDWqEa6Si',
+    summary: 'GRANVILLE – Amazon is coming to Granville. The town supervisor tells NewsChannel 13 that an Amazon distribution center will soon take over the old Manchester Wood site on Route 24. An announcement was made at Tuesday night’s town planning board meeting. Renovations will begin in December. They hope to open in the middle of next year and employ between 150 and 200 people. The post Amazon announces plans to open Granville distribution center appeared first on WNYT.com NewsChannel 13 .',
+    related: 'AMZN',
+    image: 'https://cloud.iexapis.com/v1/news/image/3ei5AQQkdF6fKpBNWBEyCGwrVk1QKI1x1k4qDWqEa6Si',
+    lang: 'en',
+    hasPaywall: false
+  },
+  {
+    datetime: 1664473783000,
+    headline: 'Ex-eBay execs get prison time for bizarre harassment scheme',
+    source: 'WNYT',
+    url: 'https://cloud.iexapis.com/v1/news/article/3sz4zrsgRNwpcfQ8Jz0pfASq7z3IBYSN2S6kyFVmmf2V',
+    summary: 'BOSTON (AP) — A former eBay Inc. executive was sentenced on Thursday to almost five years in prison for leading a scheme to terrorize the creators of an online newsletter that included sending live spiders, cockroaches, a funeral wreath and other disturbing deliveries to their home. David Steiner, who along with his wife was the target of the harassment campaign, told the court that eBay former Senior Director of Safety and Security James Baugh and other eBay employees made their lives “a living hell.” He expressed fear that other companies would use it as a blueprint to go after journalists in the future. “This was a bizarre, premediated assault on our lives … with buy-in at the highest levels of eBay,” Steiner told the judge. Another former eBay executive, David Harville, was sentenced later Thursday to two years behind bars for his role in the scheme targeting David and Ina Steiner, the publisher and reporter who angered executives with coverage of the company in their newsletter, eCommerceBytes.',
+    related: 'EBAY,AMZN',
+    image: 'https://cloud.iexapis.com/v1/news/image/3sz4zrsgRNwpcfQ8Jz0pfASq7z3IBYSN2S6kyFVmmf2V',
+    lang: 'en',
+    hasPaywall: false
+  },
+  {
+    datetime: 1664473462000,
+    headline: 'Warren, Jayapal, and other federal legislators ask FTC to oppose Amazon’s iRobot acquisition',
+    source: 'GeekWire',
+    url: 'https://cloud.iexapis.com/v1/news/article/hDnycx97F30Ayr57JL0wXKLAYJLUR7AvWiZiTvaqXhN',
+    summary: 'Amazon’s proposed $1.7 billion acquisition of Roomba maker iRobot faces opposition from federal lawmakers including Sen. Elizabeth Warren and Rep. Pramila Jayapal, who represents the Seattle company’s home district. In a letter to Federal Trade Commission chair Lina Khan, made public Thursday morning, Warren, Jayapal and U.S. Reps. Mondaire Jones, Katie Porter, Mark Pocan, and Jesús G. “Chuy” García asked the FTC to oppose the deal. The letter cites factors including iRobot’s estimated 75% share of the smart vacuum market by revenue. It reads, in part: Amazon’s proposed acquisition of iRobot Corp. presents a number of antitrust and consumer-protection concerns,… Read More',
+    related: 'AMZN,IRBT,FTC-LN,FTI-GS,FTI-GM,FTI-GF,FLTCF',
+    image: 'https://cloud.iexapis.com/v1/news/image/hDnycx97F30Ayr57JL0wXKLAYJLUR7AvWiZiTvaqXhN',
+    lang: 'en',
+    hasPaywall: false
+  }
+]
