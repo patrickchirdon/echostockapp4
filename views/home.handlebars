@@ -15,22 +15,46 @@ div.transbox {
   background-color: #ffffff;
   border: 1px solid black;
   opacity: 0.9;
+  margin-right: calc(50% - 50vw);
+    max-width: 1000%;
+    width: auto;
+  font-weight: bold;
+  color: #000000;
   
   
 }
 
 div.transbox p {
   margin: 5%;
+   margin-left: calc(50% - 50vw);
+    margin-right: calc(50% - 50vw);
+    max-width: 1000%;
+    width: auto;
   font-weight: bold;
   color: #000000;
 }
 
+div.alignfull {
+    margin-left: calc(50% - 50vw);
+    margin-right: calc(50% - 50vw);
+    max-width: 1000%;
+    width: auto;
+}
+
+
+
 
 </style>
+    <div class="alignfull">
+    
+    <img src="2022_09_16_00a_Kleki.png" width="100%" height="100%" class="img-fluid">
+    
+  
+    
+    
 
     <div class="transbox" style="height:5000%; width:100%";>
     
-    <img src="2022_09_16_00a_Kleki.png" width="100%" height="100%">
     <div class="container-fluid">
  
    
@@ -41,7 +65,7 @@ div.transbox p {
       <form class="form-inline my-2 my-lg-0" action="/" METHOD="POST">
 	  <div class="form-group">
 
-           
+           <a href="https://finance.yahoo.com/lookup/">Search for Ticker </a>
            <input type="text" class="form-control" name = "stock_ticker" placeholder="Ticker Search">
         </div><br>
         <button class="btn btn-outline-secondary my-2 my-sm-0" type="submit">submit</button>
@@ -69,7 +93,7 @@ div.transbox p {
 			
                 
                //
-               (data.close + "-" + "close" + "<br>" + data.changePercent + "-" + "change percent" + "<br>" + data.avgTotalVolume + " - " + "average total volume" + "<br>" +  data.low + "-" + "low" + "<br>" +   data.open  + "open" + "<br>" +  data.peRatio + "-" + "PE ratio" + "<br>" + data.week52High + "-" +  "week 52 high" + " <br> " +  data.week52Low + "-" + "week 52 low" +  "<br>" +  data.ytdChange + "-" + "ytd change"  ));
+               ("Close - " + data.close  + "<br>" + "Change Percent - "  + data.changePercent  + "<br>" + "Average Total Volume - "  + data.avgTotalVolume  + "<br>" + "Low - " +  data.low + "<br>" + "Open - " +  data.open +  "<br>" + "PE ratio" + "-" + data.peRatio  + "<br>" + "Week 52 High" + "-" +  data.week52High + "<br>" +  "Week 52 Low" + "-" +  data.week52Low + "<br>" + "YTD Change" +  data.ytdChange  ));
                
          
             
@@ -101,7 +125,7 @@ div.transbox p {
 			
                 
                
-               (data.marketcap + "-" + "marketcap" + "<br>"  + data.week52change + " - " + "week 52 change" + "<br>" + data.day200MovingAvg + " - " + "Day 200 Moving Average" + "<br>" + data.day50MovingAvg  + "-" + "day 50 moving average" + "<br>" + data.ttmEPS + "-" + "ttmEPS" + "<br>" +  data.ttmDividendRate + "-" + "ttm dividend rate"  + "<br>" + data.dividendYield + "-" + "dividend yield" +  "<br>" + data.beta + "-" + "beta"  + "<br>" + data.maxChangePercent + "-" + "max change percent" + "<br>" + data.year5ChangePercent + "-" + "year 5 change percent" + "<br>" + data.year2ChangePercent + "-" + "year 2 change percent" +"<br>" +  data.ytdChangePercent + "-" + "ytd change percent" + "<br>" + data.month6ChangePercent + "-" + "month 6 change percent" + "<br>" +  data.month3ChangePercent + "-" + "month 3 change percent" + "<br>" + data.month1ChangePercent + "-" + "month 1 change percent" + "<br>" + data.day30ChangePercent + "-" + "day 30 change percent" + "<br>" + data.day5ChangePercent + "-" + "day 5 change percent"
+               ("Marketcap" + "-" + data.marketcap  + "<br>"  + "Week 52 Change" + "-" + data.week52change + "<br>" + "Day 200 Moving Average" + "-" +  data.day200MovingAvg + "<br>" + "Day 50 Moving Average" + "-" + data.day50MovingAvg  + "<br>" + "ttmEPS" + "-" + data.ttmEPS  + "<br>" + "TTM Dividend Rate" + "-" +  data.ttmDividendRate + "<br>" + "Dividend Yield" + "-" +  data.dividendYield + "<br>" +  "Beta" + "-" + data.beta + "<br>" + "Max Change Percent" + "-" +  data.maxChangePercent  + "<br>" + "Year 5 Change Percent" + "-" + data.year5ChangePercent + "<br>"  + "Year 2 Change Percent" + "-" + data.year2ChangePercent +  +"<br>" + "Ytd Change Percent" + "-" +  data.ytdChangePercent + "<br>" + "Month 6 Change Percent" + "-" + data.month6ChangePercent + "<br>" + "Month 3 Change Percent" + "-" +  data.month3ChangePercent + "<br>" + "Month 1 Change Percent" + "-" + data.month1ChangePercent  + "<br>" + "Day 30 Change Percent" + "-" + data.day30ChangePercent + "Day 5 Change Percent" + "-"  + data.day5ChangePercent 
 
 
 
@@ -134,7 +158,7 @@ div.transbox p {
 			
                 
                
-               (data.symbol + "-" + "symbol" + "<br>"  + data.companyName + " - " + "company name" + "<br>" + data.industry + " - " + "industry" + "<br>" + data.description  + "-" + "description" + "<br>" + data.CEO + "-" + "CEO" + "<br>" +  data.employees + "-" + "employees"  + "<br>" + data.address + "-" + "address" + "<br>" + data.state + "-" + "state" + "<br>" + data.city + "-" + "city"  + "<br>" + data.zip + "-" + "zip" + "<br>" + data.country + "-" + "country" + "<br>" + data.phone + "-" + "phone" 
+               ("Symbol" + "-" + data.symbol  + "<br>"  + "Company Name" + "-" + data.companyName + "<br>" + "Industry" + "-" + data.industry +  "<br>" + "Description" + "-" + data.description  + "<br>" + "CEO" + "-" + data.CEO + "<br>" + "Employees" + "-" + data.employees + "<br>" + "Address" + "-" + data.address  + "<br>" + "State" + "-" + data.state  + "<br>" + "City" + "-" + data.city + "<br>" + "Zip" + "-" +  data.zip + "<br>" + "Country" + "-" + data.country +  "<br>" + "Phone" + "-" + data.phone 
 
 
 
@@ -154,7 +178,7 @@ div.transbox p {
 	</script>
 	
 	  </div>
-
+      </div>
 	
 
 

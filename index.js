@@ -10,13 +10,12 @@ const bodyParser= require('body-parser');
 
 const PORT=process.env.PORT ||8000;
 
-const ngrok = require('ngrok');
-(async function() {
-  const url = await ngrok.connect();
-})();
 
 
 
+
+                                
+      
 //use body parser middleware
 app.use(bodyParser.urlencoded({extended: false}));
 
