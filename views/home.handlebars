@@ -57,33 +57,7 @@ div.alignfull {
     
     <div class="container-fluid">
  
-   
-   
-      	<h1><p style="color:white;">
-      	</p></h1>
-      	
-      <form class="form-inline my-2 my-lg-0" action="/" METHOD="POST">
-	  <div class="form-group">
-
-           <a href="https://finance.yahoo.com/lookup/">Search for Ticker </a>
-           <input type="text" class="form-control" name = "stock_ticker" placeholder="Ticker Search">
-        </div><br>
-        <button class="btn btn-outline-secondary my-2 my-sm-0" type="submit">submit</button>
-        </form>
-        
-        <br><br><br><br>
-        
-        
-    </div>
-  
-    
- 
-	<h1>Overview</h1>
-	<button onclick="Func()">Show Details</button>
-	<p id="details"></p>
-
-
-	<script>
+   	<script>
 	function Func() {
 		fetch("./views/overview.json")
 		.then((res) => {
@@ -99,25 +73,9 @@ div.alignfull {
             
                
 
-	}
-	 
-        
-	</script>
 	
-
-
 	
-
-
-
-	<h1>Stats</h1>
-	<button onclick="Func2()">Show Details</button>
-	<p id="details1"></p>
-
-
-	<script>
-	function Func2() {
-		fetch("./views/stats.json")
+	fetch("./views/stats.json")
 		.then((res) => {
 			return res.json();
 		})
@@ -136,20 +94,8 @@ div.alignfull {
             
                
 
-	}
-	 
-        
-	</script>
 	
 	
-	
-	<h1>Company Info</h1>
-	<button onclick="Func3()">Show Details</button>
-	<p id="details2"></p>
-
-
-	<script>
-	function Func3() {
 		fetch("./views/info.json")
 		.then((res) => {
 			return res.json();
@@ -166,16 +112,56 @@ div.alignfull {
                 ));
                
           
-            
-               
-
-	}
-	
-	
-  
-	 
+            }
+    
         
 	</script>
+   
+      	<h1><p style="color:white;">
+      	</p></h1>
+      	
+      <form class="form-inline my-2 my-lg-0" action="/" METHOD="POST">
+	  <div class="form-group">
+
+           <a href="https://finance.yahoo.com/lookup/">Search for Ticker </a>
+           <input type="text" class="form-control" name = "stock_ticker" placeholder="Ticker Search">
+        </div><br>
+        <button class="btn btn-outline-secondary my-2 my-sm-0" type="submit">submit</button>
+        </form>
+        
+        <br><br><br><br>
+        
+  <button onclick="Func()">Show Details</button>
+        
+    </div>
+    
+ 
+	<h1>Overview</h1>
+
+	<p id="details"></p>
+
+
+
+	
+
+
+	
+
+
+
+	<h1>Stats</h1>
+	<p id="details1"></p>
+	 
+     
+	
+	
+	
+	<h1>Company Info</h1>
+	
+	<p id="details2"></p>
+
+
+	
 	
 	  </div>
       </div>
