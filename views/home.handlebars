@@ -1,63 +1,8 @@
 <!DOCTYPE html>
 <html>
-<body>
 
 
-    
-<style>
-div.background {
-  background: url('static/stock-market-thanksgiving-day-2021.jpg');
-  border: 2px solid black;
-}
-
-div.transbox {
-  margin: 30px;
-  background-color: #ffffff;
-  border: 1px solid black;
-  opacity: 0.9;
-  margin-right: calc(50% - 50vw);
-    max-width: 1000%;
-    width: auto;
-  font-weight: bold;
-  color: #000000;
-  
-  
-}
-
-div.transbox p {
-  margin: 5%;
-   margin-left: calc(50% - 50vw);
-    margin-right: calc(50% - 50vw);
-    max-width: 1000%;
-    width: auto;
-  font-weight: bold;
-  color: #000000;
-}
-
-div.alignfull {
-    margin-left: calc(50% - 50vw);
-    margin-right: calc(50% - 50vw);
-    max-width: 1000%;
-    width: auto;
-}
-
-
-
-
-</style>
-    <div class="alignfull">
-    
-    <img src="2022_09_16_00a_Kleki.png" width="100%" height="100%" class="img-fluid">
-    
-  
-    
-    
-
-    <div class="transbox" style="height:5000%; width:100%";>
-    
-    <div class="container-fluid">
- 
-   	<script>
+  	<script>
 	function Func() {
 		fetch("./views/overview.json")
 		.then((res) => {
@@ -116,6 +61,63 @@ div.alignfull {
     
         
 	</script>
+	
+<body onload="Func()">
+    
+<style>
+div.background {
+  background: url('static/stock-market-thanksgiving-day-2021.jpg');
+  border: 2px solid black;
+}
+
+div.transbox {
+  margin: 30px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.9;
+  margin-right: calc(50% - 50vw);
+    max-width: 1000%;
+    width: auto;
+  font-weight: bold;
+  color: #000000;
+  
+  
+}
+
+div.transbox p {
+  margin: 5%;
+   margin-left: calc(50% - 50vw);
+    margin-right: calc(50% - 50vw);
+    max-width: 1000%;
+    width: auto;
+  font-weight: bold;
+  color: #000000;
+}
+
+div.alignfull {
+    margin-left: calc(50% - 50vw);
+    margin-right: calc(50% - 50vw);
+    max-width: 1000%;
+    width: auto;
+}
+
+
+
+
+</style>
+    <div class="alignfull">
+    
+    <img src="2022_09_16_00a_Kleki.png" width="100%" height="100%" class="img-fluid">
+    
+  
+    
+    
+
+    <div class="transbox" style="height:5000%; width:100%";>
+    
+    <div class="container-fluid">
+ 
+ 
    
       	<h1><p style="color:white;">
       	</p></h1>
